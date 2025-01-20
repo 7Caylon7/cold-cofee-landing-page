@@ -1,9 +1,9 @@
 <template>
   <div class="container">
     <nav class="navbar">
-      <h1>Cold Cofee</h1>
+      <h1 class="logo">Cold Cofee</h1>
       <div>
-        <ul>
+        <ul class="nav">
           <li>Home</li>
           <li>Preços</li>
           <li>Contato</li>
@@ -40,19 +40,43 @@ export default {
   height: 100vh;
 }
 
+.navbar,
+.nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: Barlow-SemiBold, sans-serif;
+}
+
+.navbar{
+  height: 10vh;
+  padding: 1%;
+  gap: 26vw;
+}
+
+.logo{
+  font-size: 4vh;
+}
+
+.nav{
+  gap: 10vw;
+  font-size: 2vh;
+}
+
 .central{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 8vh;
 }
 
 .titulo{
   font-size: 30vh;
-  height: 37.5vh;
+  height: 41vh;
   font-family: Barlow-SemiBold, sans-serif;
   display: inline-block;
-  transform: scale(1, 1.6);
+  transform: scale(0.6, 2);
   transform-origin: center;
   line-height: normal;
 }
