@@ -26,5 +26,11 @@ export default {
   padding: 0;
   box-sizing: border-box;
   list-style: none;
+  text-decoration: none;
+}
+
+
+i{
+  cursor: pointer;
 }
 </style>
