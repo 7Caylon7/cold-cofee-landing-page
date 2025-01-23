@@ -54,7 +54,6 @@ a {
 .container {
   color: #FEFEFE;
   background-color: #005e3b;
-  width: 100vw;
   height: 100vh;
 }
 
@@ -70,7 +69,7 @@ a {
 .navbar {
   height: 10vh;
   padding: 1%;
-  gap: 26vw;
+  gap: 25vw;
 }
 
 .logo {

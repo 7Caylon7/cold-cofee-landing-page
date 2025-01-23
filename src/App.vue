@@ -1,14 +1,17 @@
 <template>
   <NavBar/>
+  <SecondComp/>
 </template>
 
 <script>
 import NavBar from './components/NavBar.vue'
+import SecondComp from './components/SecondComp.vue';
 
 export default {
   name: 'App',
   components: {
-    NavBar
+    NavBar,
+    SecondComp
   }
 }
 </script>
@@ -20,6 +23,13 @@ export default {
   font-weight: normal;
   font-style: normal;
 }
+
+:root {
+    --primary-color: #005e3b;
+    --accent-color: #4bff87;
+    --font-family: Barlow-SemiBold, sans-serif;
+}
+
 
 *{
   margin: 0;
